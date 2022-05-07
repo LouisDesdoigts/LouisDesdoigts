@@ -1,4 +1,10 @@
-### Hi there 👋
+### Well hello there 👋 I'm Louis!
+
+---
+
+I'm a PhD Candidate in Astronomy at The University of Sydney!
+
+My research is focused around advancing the way we approach modeliing optical systems, aiming to interate the huge advancements of the last decade into optical sciences through the use of Automatic Differention. I have recently developed an amazing new tool called [$\partial$Lux](https://github.com/LouisDesdoigts/dLux)! 
 
 <!--
 **LouisDesdoigts/LouisDesdoigts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
