@@ -4,7 +4,7 @@
 
 I'm a PhD Candidate in Astronomy at The University of Sydney!
 
-My research is focused around advancing the way we approach modeliing optical systems, aiming to interate the huge advancements of the last decade into optical sciences through the use of Automatic Differention. I have recently developed an amazing new tool called [∂Lux](https://github.com/LouisDesdoigts/dLux)! 
+My research is focused around advancing the way we approach modeliing optical systems, aiming to interate the huge advancements in Machine Learning of the last decade into optical sciences through the use of Automatic Differention. I have recently developed an amazing new tool called [∂Lux](https://github.com/LouisDesdoigts/dLux)! 
 
 
 
