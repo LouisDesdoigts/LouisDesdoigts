@@ -4,7 +4,9 @@
 
 I'm a PhD Candidate in Astronomy at The University of Sydney!
 
-My research is focused around advancing the way we approach modeliing optical systems, aiming to interate the huge advancements in Machine Learning of the last decade into optical sciences through the use of Automatic Differention. I have recently developed an amazing new tool called [∂Lux](https://github.com/LouisDesdoigts/dLux)! 
+My research is focused around advancing the way we approach modelling optical systems, aiming to integrate the huge advancements in Machine Learning of the last decade into optical sciences through the use of Automatic Differentiation.
+I am leading development of an open-source optical simulation library [∂Lux](https://github.com/LouisDesdoigts/dLux), a Python+Jax based package permitting inference and design of optical systems with millions of parameters.
+In my PhD, I will be working with my supervisors [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/) to apply these ideas to the [Toliman Space Telescope](https://www.abc.net.au/news/2021-11-17/toliman-space-telescope-brings-alpha-centauri-closer-to-reality/100625376) and JWST.
 
 
 
