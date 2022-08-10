@@ -8,7 +8,7 @@ My research is focused around advancing the way we approach modelling optical sy
 I am leading development of an open-source optical simulation library [∂Lux](https://github.com/LouisDesdoigts/dLux), a Python+Jax based package permitting inference and design of optical systems with millions of parameters.
 In my PhD, I will be working with my supervisors [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/) to apply these ideas to the [Toliman Space Telescope](https://www.abc.net.au/news/2021-11-17/toliman-space-telescope-brings-alpha-centauri-closer-to-reality/100625376) and JWST.
 
-
+Please don't hesitate to contact me about project collaboration at louis.desdoigts@sydney.edu.au!
 
 <!--
 **LouisDesdoigts/LouisDesdoigts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
