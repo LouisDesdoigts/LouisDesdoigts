@@ -8,7 +8,7 @@
 
 ## Well hello there, I'm Louis! 👋 
 
-I'm a PhD Candidate in Astronomy at The University of Sydney working with my supervisors [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/). 
+I'm a postdoc in astronomy at Leiden University, having recently finished my PhD with [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/). 
 
 My research is focused around advancing the way we approach modelling optical systems, aiming to integrate the huge advancements in Machine Learning of the last decade into optical sciences through the use of Automatic Differentiation.
 I aim to develop new softwares, tools and methods that harness these ideas in order to advance the field as a whole, as well as applying these ideas to the [Toliman Space Telescope](https://www.abc.net.au/news/2021-11-17/toliman-space-telescope-brings-alpha-centauri-closer-to-reality/100625376) and JWST.
