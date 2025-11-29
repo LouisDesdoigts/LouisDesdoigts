@@ -18,8 +18,8 @@ I first built and tested these ideas for the [**Toliman** space telescope](https
 I’m now applying the same approach to both ground- and space-based high-contrast imaging systems. My current focus is **wavefront sensing and control**, especially for **MagAO-X** 🔧✨, and looking ahead toward modelling challenges on the next generation of ELTs. Most of my work is methods-driven — statistics, algorithms, differentiable modelling, detectors — but the underlying motivation is exoplanet science and pushing high-contrast imaging closer to its physical limits.
 
 📧 **Contact:**  
-• louis.desdoigts@leidenuniv.nl  
-• louis.desdoigts@sydney.edu.au  
+- desdoigts@strw.leidenuniv.nl  
+- louis.desdoigts@sydney.edu.au  
 <br clear="left" />
 
 ---
