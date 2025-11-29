@@ -6,36 +6,42 @@
 
 ---
 
-## Well hello there, I'm Louis! 👋 
+# Louis Desdoigts  
 
-I'm a postdoc in astronomy at Leiden University, having recently finished my PhD with [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/). 
+Hi, I’m Louis 👋  
+I’m a Postdoctoral Researcher at **Leiden Observatory** 🌙🔭 working in instrumentation and methods for Astrophysics with [Sebastiaan Haffert](https://github.com/syhaffert). I completed my PhD at Sydney University under the guise of [Peter Tuthill](http://www.physics.usyd.edu.au/~gekko/) and [Benjamin Pope](https://github.com/benjaminpope/).
 
-My research is focused around advancing the way we approach modelling optical systems, aiming to integrate the huge advancements in Machine Learning of the last decade into optical sciences through the use of Automatic Differentiation.
-I aim to develop new softwares, tools and methods that harness these ideas in order to advance the field as a whole, as well as applying these ideas to the [Toliman Space Telescope](https://www.abc.net.au/news/2021-11-17/toliman-space-telescope-brings-alpha-centauri-closer-to-reality/100625376) and JWST.
+My PhD focused on differentiable programming in astronomy — building end-to-end forward models where the entire optical + detector chain is treated as one differentiable system. Autodiff makes this practical for the first time, so most of my work involved designing the software, algorithms, and numerical tools needed to actually do this in real instruments. This included developing hybrid forward models (physics-based models with small embedded ML components for the messy or unknown parts) and figuring out how to apply them to real observational problems.
 
-Please don't hesitate to contact me about project collaboration at louis.desdoigts@sydney.edu.au!
+I first built and tested these ideas for the [**Toliman** space telescope](https://toliman.space/), and then extended them significantly for the **JWST NIRISS interferometer**, where detector non-linearities and charge-migration effects require a full physics–ML treatment. These projects fed directly into the modelling philosophy laid out in my thesis: treat simulation and inference as the same object, and model the whole measurement process instead of stitching together many independent steps.
+
+I’m now applying the same approach to both ground- and space-based high-contrast imaging systems. My current focus is **wavefront sensing and control**, especially for **MagAO-X** 🔧✨, and looking ahead toward modelling challenges on the next generation of ELTs. Most of my work is methods-driven — statistics, algorithms, differentiable modelling, detectors — but the underlying motivation is exoplanet science and pushing high-contrast imaging closer to its physical limits.
+
+📧 **Contact:**  
+• louis.desdoigts@leidenuniv.nl  
+• louis.desdoigts@sydney.edu.au  
+<br clear="left" />
 
 ---
 
-### Software:
+## 🧰 Software
 
-<!--As an anarco-communist -->I'm deeply passionate about open-source software and its ability to precipitate multi-disciplinary scientific advancement. Presently I am leading the development of two packages:
+I'm an open-source extremist when it comes to software, and most of my projects are aimed at either modelling instruments in a fully differentiable way, or buidling the infrastructure needed to work with these models. These packages are designed for clarity and scientific use rather than hiding complexity.
 
-- [∂Lux](https://github.com/LouisDesdoigts/dLux): An open-source, fully differentiable, GPU accelerated optical modelling framework.
-- [Zodiax](https://github.com/LouisDesdoigts/zodiax): An open-source framework for object-oriented [Jax](https://github.com/google/jax) as an extension of [Equinox](https://github.com/patrick-kidger/equinox) for scientific application.
+### [**Zodiax**](https://github.com/LouisDesdoigts/zodiax)
+A ƒramework designed to make with building and working with object-orented, scientific models in [JAX](https://github.com/jax-ml/jax) easier by extending [Equinox](https://github.com/patrick-kidger/equinox)
 
+### [**∂Lux**](https://github.com/LouisDesdoigts/dLux)
+End-to-end differentiable phsyical optical modelling in JAX, built on Zodiax.
 
-<!--
-**LouisDesdoigts/LouisDesdoigts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### [**AMIGO**](https://github.com/LouisDesdoigts/amigo)  
+Hybrid physical–ML forward model for JWST NIRISS AMI. Models optics, detector physics, electronics, ramp behaviour, and charge-migration effects directly from raw ramps. Built on ∂Lux.
 
-Here are some ideas to get you started:
+## 📄 Publications (selected)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- *AMIGO: A data-driven calibration of JWST NIRISS AMI* https://arxiv.org/abs/2510.09806
+- *Image reconstruction with the AMIGO forward model* https://arxiv.org/abs/2510.10924
+- *Differentiable Optics with dLux II: Optical design maximising Fisher information* https://arxiv.org/abs/2406.08704
+- *Differentiable Optics with dLux I: Deep calibration of Flat Field and Phase Retrieval with Automatic Differentiation* https://arxiv.org/abs/2406.08703
+- *Phase Retrieval and Design with Automatic Differentiation* https://arxiv.org/abs/2107.00952
+- *PhD thesis “From Stars to Sensors”* - end-to-end modelling philosophy, hybrid methods, differentiable inference (link coming soon!)
